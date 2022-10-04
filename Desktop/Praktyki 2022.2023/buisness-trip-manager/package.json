@@ -23,15 +23,15 @@
     "eject": "react-scripts eject",
     "lint": "eslint \"*/**/*.{js,ts,tsx}\" --quiet --fix"
   },
-  "lint-staged": {
-    "*/**/*.{js,json, ts, tsx}": [
-      "prettier --write \"*/**/*.tsx\""
-    ]
-  },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
     }
+  },
+  "lint-staged": {
+    "*/**/*.{js,json, ts, tsx}": [
+      "prettier --write \"*/**/*.tsx\""
+    ]
   },
   "eslintConfig": {
     "extends": [
