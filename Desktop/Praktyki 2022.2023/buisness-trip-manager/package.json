@@ -24,15 +24,15 @@
     "lint": "eslint \"*/**/*.{js,ts,tsx}\" --quiet --fix",
     "lint-staged": ""
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm lint \"*/**/*.{js,ts,tsx}\""
-    }
-  },
   "lint-staged": {
     "*/**/*.{js,json, ts, tsx}": [
       "npm run lint \"*/**/*.tsx\""
     ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   },
   "eslintConfig": {
     "extends": [
