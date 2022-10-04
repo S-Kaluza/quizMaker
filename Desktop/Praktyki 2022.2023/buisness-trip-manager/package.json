@@ -24,7 +24,7 @@
     "lint": "eslint \"*/**/*.{js,ts,tsx}\" --quiet --fix"
   },
   "lint-staged": {
-    "*/**/*.{js,json}": [
+    "*/**/*.{js,json, ts, tsx}": [
       "prettier --write \"*/**/*.tsx\""
     ]
   },
