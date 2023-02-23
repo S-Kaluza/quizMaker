@@ -1,0 +1,5 @@
+Nazwa: Funkcja Kwadratowa
+Wzór: a^2 + bx + c
+A: 10
+B: 15
+C: 20

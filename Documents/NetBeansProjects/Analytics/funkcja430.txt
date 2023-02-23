@@ -1,0 +1,5 @@
+Nazwa: Funkcja Logarytmiczna
+Wzór: alog(bx + c)
+A: 10
+B: 15
+C: 20

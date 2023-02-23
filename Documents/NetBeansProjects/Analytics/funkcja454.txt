@@ -1,0 +1,5 @@
+Nazwa: Funkcja Trygonometryczna
+Wzór: a * sin(bx + c)
+A: 10
+B: 15
+C: 20
